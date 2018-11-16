@@ -1,6 +1,7 @@
 {
   "name": "hooks",
   "version": "0.1.0",
+  "homepage": "https://sylenien.github.io/react-hooks-todo/",
   "private": true,
   "dependencies": {
     "react": "^16.7.0-alpha.2",
@@ -10,6 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
