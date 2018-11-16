@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = ({ todos, clearCompleted }) => {
-  if (todos.length === 0) return;
+  if (todos.length === 0) return null;
   return (
     <footer className="footer">
       <span className="todo-count">{todos.length} items left</span>
