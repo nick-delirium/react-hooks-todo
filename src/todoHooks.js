@@ -36,7 +36,7 @@ const useTodos = (initialValue = exampleTodos) => {
     },
     completeAll: () => {
       const newTodos = todos.map(item => {
-        item.isCompleted = !item.isCompleted;
+        if (item.isCompleted === false) item.isCompleted = !item.isCompleted;
         return item;
       });
       setTodos(newTodos);
