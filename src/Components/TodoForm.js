@@ -8,13 +8,21 @@ function TodoForm({ addTodo, completeAll }) {
     if (!value) return;
     addTodo(value);
     setValue("");
-  }
+  };
 
-  return(
+  return (
     <form onSubmit={submit}>
-      <input onChange={completeAll} className="toggle-all" id='toggle-all' type='checkbox' name='toggle'></input>
-      <label htmlFor='toggle-all'>Mark all as complete</label>
-      <input type="text" className="new-todo"
+      <input
+        onChange={completeAll}
+        className="toggle-all"
+        id="toggle-all"
+        type="checkbox"
+        name="toggle"
+      />
+      <label htmlFor="toggle-all">Mark all as complete</label>
+      <input
+        type="text"
+        className="new-todo"
         value={value}
         onChange={e => setValue(e.target.value)}
         placeholder="Task..."
