@@ -1,5 +1,5 @@
 import React from "react";
-
+import propTypes from "prop-types"
 const Todo = ({ todo, index, completeTodo, removeTodo }) => (
   <li className={todo.isCompleted ? "completed" : ""}>
     <div className="view" style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}>
@@ -15,4 +15,10 @@ const Todo = ({ todo, index, completeTodo, removeTodo }) => (
   </li>
 );
 
+Todo.propTypes = {
+  todo: propTypes.shape({
+    isCompleted: propTypes.bool.isRequired,
+    text: propTypes.string.isRequired
+  })
+}
 export default Todo;
