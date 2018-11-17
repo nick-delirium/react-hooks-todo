@@ -13,7 +13,7 @@ const useTodos = (initialValue = exampleTodos) => {
   // 💁‍ this effect will be called every time DOM tree updated, means that we'll always have fresh state in localstorage
   useEffect(() => {
     window.localStorage.setItem("elmTodos", JSON.stringify(todos));
-  });
+  }, todos); // variable to watch or [] to run only on comp mount
   return {
     todos,
     addTodo: text => {
