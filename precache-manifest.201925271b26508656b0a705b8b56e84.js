@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-hooks-todo/static/js/runtime~main.b3f754b7.js"
   },
   {
-    "revision": "1804bce68435447d6370",
-    "url": "/react-hooks-todo/static/js/main.1804bce6.chunk.js"
+    "revision": "7b1c1dcb3639f9cedb37",
+    "url": "/react-hooks-todo/static/js/main.7b1c1dcb.chunk.js"
   },
   {
     "revision": "5500fd3413a57f5e0c64",
     "url": "/react-hooks-todo/static/js/1.5500fd34.chunk.js"
   },
   {
-    "revision": "1804bce68435447d6370",
-    "url": "/react-hooks-todo/static/css/main.a5275009.chunk.css"
+    "revision": "7b1c1dcb3639f9cedb37",
+    "url": "/react-hooks-todo/static/css/main.b216ab38.chunk.css"
   },
   {
-    "revision": "d4646182a0919ffbd640b932f506df68",
+    "revision": "4be91db6de5d39b0fb4bec3a196f8ab9",
     "url": "/react-hooks-todo/index.html"
   }
 ];
